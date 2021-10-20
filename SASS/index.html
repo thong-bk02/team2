@@ -8,9 +8,140 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide3 > .row{
+            --bs-gutter-x: 0rem !important;
+        }
+        .slide2{
+            background-image: url("img/bg-slide2.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-
+<header>
+    <div class="mx-5 h-100">
+        <div class="navigation">
+            <div class="brand">
+                <a href="#" class="text-dark"><img src="img/brand.jpg" class="img-fluid logo"></a>
+            </div>
+            <div class="h-100">
+                <div class="menu">
+                    <nav>
+                        <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+                        <ul class="nav-list">
+                            <li><a href="#" class="fw-bold link-menu">Home</a></li>
+                            <li><a href="#" class="fw-bold link-menu">About us</a></li>
+                            <li><a href="#" class="fw-bold link-menu">Services</a></li>
+                            <li><a href="#" class="fw-bold link-menu">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="slide0">
+        <img src="img/slider.jpg" class="img-fluid w-100">
+    </div>
+    <div class="slide1 bg-color">
+        <div class="container">
+            <div class="text-center text-light fs-1">
+                <p class="pt-5 size-2em fw-bold">CHOOSE CLASS</p>
+                <h4 class="py-3">Lorem ipsum dolor sit amet, consectetur adipisc<br>
+                    ing elit. Vivamus lacinia odio vitae vestibulum ves-<br>
+                    tibulum.</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="text-center text-light font-monospace">
+                        <div><img src="img/img-slide1.png" class="img-fluid w-75 m-5"></div>
+                        <h2>NEWBIE CLASS</h2>
+                        <h5 class="pb-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="text-center text-light font-monospace">
+                        <div><img src="img/img-slide1.png" class="img-fluid w-75 m-5"></div>
+                        <h2>NEWBIE CLASS</h2>
+                        <h5 class="pb-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="text-center text-light font-monospace">
+                        <div><img src="img/img-slide1.png" class="img-fluid w-75 m-5"></div>
+                        <h2>NEWBIE CLASS</h2>
+                        <h5 class="pb-5">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide2">
+        <div class="container">
+            <div class="text-center text-color fs-1">
+                <p class="size-2em fw-bold pt-5">OUR STARTS</p>
+                <h4 class="py-3">Lorem ipsum dolor sit amet, consectetur adipisc<br>
+                    ing elit. Vivamus lacinia odio vitae vestibulum ves-<br>
+                    tibulum.</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="text-center text-light font-monospace my-5">
+                        <div><img src="img/img-slide2.png" class="img-fluid"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="text-center text-light font-monospace my-5">
+                        <div><img src="img/img-slide2.png" class="img-fluid"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="text-center text-light font-monospace my-5">
+                        <div><img src="img/img-slide2.png" class="img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide3 bg-color">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center justify-content-center h-100">
+                    <div class="mx-5 fs-1">
+                        <p class="text-light fw-bold size-2em">BEST<br>INSTRUCTOR</p>
+                        <h3 class="text-light pb-3">Lorem ipsum dolor sit amet, consecte-<br>tur adipiscing elit. Vivamus lacinia<br>odio vitae vestibulum vestibulum.</h3>
+                        <div class="my-5"><a class="px-5 py-4 bg-light text-decoration-none fw-bold text-color fs-1">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6"><img src="img/img-slide3.png" class="w-100"></div>
+        </div>
+    </div>
+    <div class="slide4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="img/img-slide4.png" class="img-fluid w-100">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="mx-5 fs-1">
+                            <p class="text-color fw-bold size-2em">NEW<br>EXPERIENCE</p>
+                            <h3 class="text-color pb-3">Lorem ipsum dolor sit amet, consecte-<br>tur adipiscing elit. Vivamus lacinia<br>odio vitae vestibulum vestibulum.</h3>
+                            <div class="my-5"><a class="bg-color px-5 py-4 text-decoration-none fw-bold text-light fs-1">READ MORE</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
