@@ -122,10 +122,14 @@ nav {
 .size-2em {
   font-size: 2em; }
 
+a {
+  text-decoration: none;
+  color: #4f9a95; }
+
 a:hover {
   cursor: pointer; }
 
-.slide3 a:hover, .slide4 a:hover {
+.slide3 a:hover, .slide4 a:hover, .slide5 a:hover {
   background-color: grey !important;
   cursor: pointer; }
 

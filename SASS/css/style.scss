@@ -147,10 +147,14 @@ nav {
 .size-2em{
   font-size: 2em;
 }
+a{
+  text-decoration: none;
+  color: $bg-slide;
+}
 a:hover{
   cursor: pointer;
 }
-.slide3,.slide4{
+.slide3,.slide4,.slide5{
   a:hover{
     background-color: grey !important;
     cursor: pointer;
